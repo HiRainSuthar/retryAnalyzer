@@ -3,6 +3,7 @@
 <suite name="Test Suite">
     <listeners>
         <listener class-name="Reporting.TestListener" />
+        <listener class-name="retryAnalyzer.AnnotationTransformer"/>
     </listeners>
     <test name="Admin Tests">
         <classes>

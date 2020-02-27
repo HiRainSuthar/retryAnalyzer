@@ -1,5 +1,7 @@
-E:\GithubRepo\SeleNGExtent\src\main\java\Reporting\ExtentManager.java
-E:\GithubRepo\SeleNGExtent\src\main\java\Reporting\TestListener.java
-E:\GithubRepo\SeleNGExtent\src\main\java\PageObjects\GooglePageObjects.java
-E:\GithubRepo\SeleNGExtent\src\main\java\BaseClass\BrowserLaunch.java
-E:\GithubRepo\SeleNGExtent\src\main\java\Reporting\ExtentTestManager.java
+C:\MyStuff\retryAnalyzer\src\main\java\Reporting\ExtentTestManager.java
+C:\MyStuff\retryAnalyzer\src\main\java\BaseClass\BrowserLaunch.java
+C:\MyStuff\retryAnalyzer\src\main\java\retryAnalyzer\AnnotationTransformer.java
+C:\MyStuff\retryAnalyzer\src\main\java\PageObjects\GooglePageObjects.java
+C:\MyStuff\retryAnalyzer\src\main\java\retryAnalyzer\Retry.java
+C:\MyStuff\retryAnalyzer\src\main\java\Reporting\ExtentManager.java
+C:\MyStuff\retryAnalyzer\src\main\java\Reporting\TestListener.java

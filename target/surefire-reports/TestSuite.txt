@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 9.684 s <<< FAILURE! - in TestSuite
-GoogleLandingPageTest.verifyTitle  Time elapsed: 0.003 s  <<< FAILURE!
-java.lang.AssertionError: expected [Joogle] but found [Google]
-	at GoogleLandingPageTest.verifyTitle(GoogleLandingPageTest.java:18)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.971 s - in TestSuite

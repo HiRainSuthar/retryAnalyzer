@@ -7,8 +7,6 @@
     </listeners>
     <test name="Admin Tests">
         <classes>
-            <class name="locationAndSize" />
-            <class name="screenshotWebelement" />
             <class name="GoogleLandingPageTest" />
         </classes>
     </test>

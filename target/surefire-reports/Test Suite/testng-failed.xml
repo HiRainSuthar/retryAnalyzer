@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Suite]">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Suite]" parallel="methods">
   <listeners>
     <listener class-name="Reporting.TestListener"/>
     <listener class-name="retryAnalyzer.AnnotationTransformer"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="Admin Tests(failed)">
+  <test name="Admin Tests">
     <classes>
-      <class name="GoogleLandingPageTest">
-        <methods>
-          <include name="verifyTitle"/>
-          <include name="GoToUrl"/>
-          <include name="closeTestBrowserInstance"/>
-        </methods>
-      </class> <!-- GoogleLandingPageTest -->
+      <class name="locationAndSize"/>
+      <class name="screenshotWebelement"/>
+      <class name="GoogleLandingPageTest"/>
     </classes>
-  </test> <!-- Admin Tests(failed) -->
+  </test> <!-- Admin Tests -->
 </suite> <!-- Failed suite [Test Suite] -->

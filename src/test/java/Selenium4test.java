@@ -4,7 +4,7 @@ import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class selenium4test {
+public class Selenium4test {
 
     @Test
     public void openNewTab() throws InterruptedException {

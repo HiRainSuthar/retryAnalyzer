@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class windowHandles {
+public class WindowHandles {
 
         static WebDriver driver;
 

@@ -128,8 +128,10 @@
           <version>3.0.0-M4</version>
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>testNG.xml</suiteXmlFile>
+              <suiteXmlFile>testNGCrossbrowser.xml</suiteXmlFile>
+              <suiteXmlFile>testNGJenkins.xml</suiteXmlFile>
               <suiteXmlFile>testNGoogletest.xml</suiteXmlFile>
+              <suiteXmlFile>testNGParellel.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>

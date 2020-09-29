@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" thread-count="2" parallel="methods">
+    <listeners>
+        <listener class-name="Reporting.TestListener" />
+        <listener class-name="retryAnalyzer.AnnotationTransformer"/>
+    </listeners>
+    <test name="parallel chrome Tests" thread-count="2" parallel="methods">
+        <parameter name = "browser" value="chrome"/>
+        <classes>
+            <class name="locationAndSize" />
+            <class name="GoogleLandingPageTest" />
+        </classes>
+    </test>
+</suite>

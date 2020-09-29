@@ -1,7 +1,0 @@
-BaseClass\BrowserLaunch.class
-Reporting\TestListener.class
-PageObjects\GooglePageObjects.class
-retryAnalyzer\AnnotationTransformer.class
-retryAnalyzer\Retry.class
-Reporting\ExtentTestManager.class
-Reporting\ExtentManager.class
